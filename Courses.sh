@@ -17,14 +17,14 @@ case "$opt" in
  echo "Add Course Menu"
  echo "================="
  echo ""
- read -p "Course ID : " cid
+ 
  read -p "Course Name : " name
  read -p "Description : " description
  read -p "Course Fee : " fees
  read -p "Course Duration : " due
  read -p "Lecture : " lec
  
- echo $cid " | " $name " | " $description " | " $fees" | " $due" | " $lec   >> "courses.txt"
+ echo  $name " - " $description " - " $fees" - " $due" - " $lec   >> "courses.txt"
  ./Courses.sh
     ;;
     "2") clear

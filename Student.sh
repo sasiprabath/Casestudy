@@ -24,7 +24,7 @@ case "$opt" in
  read -p "Contact number : " num
  read -p "Email : " mail
  
- echo $sname " | " $bod " | " $school " | " $age" | " $num" | " $mail   >> "students.txt"
+ echo $sname " - " $bod " - " $school " - " $age" - " $num" - " $mail   >> "students.txt"
  ./Student.sh
     ;;
     "2") clear
